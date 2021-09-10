@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funçaõ prompt</title>
+</head>
+<body>
+  <script>
+  let nomeUsuario1 = prompt("Digite o nome da primeira pessoa");
+
+  let nomeUsuario2 = prompt("Digite o nome da segunda pessoa");
+
+  let sobrenomeUsuario1 = prompt("Digite o sobrenome da primeira pessoa");
+
+  let sobrenomeUsuario2 = prompt("Digite o sobrenome da segunda pessoa");
+
+  let idadeUsuario1 = Number(prompt("Digite a idade da primeira pessoa"));
+
+  let idadeUsuario2 = Number(prompt("Digite a idade da segunda pessoa"));
+
+  let cidadaniaUsuario1 = prompt("Digite o país de nascimento da primeira pessoa");
+  let cidadaniaUsuario2 = prompt("Digite o país de nascimento da segunda pessoa");
+  let corPreferidaUsuario1 = prompt("Digite a cor preferida da primeira pessoa");
+  let corPreferidaUsuario2 = prompt("Digite o país de nascimento da segunda pessoa");
+
+  console.log (`Registros de ${nomeUsuario1} ${sobrenomeUsuario1} e ${nomeUsuario2} ${sobrenomeUsuario2}`);
+  console.log (`Idade de ${nomeUsuario1}: ${idadeUsuario1} anos`);
+  console.log (`Idade de ${nomeUsuario2}: ${idadeUsuario2} anos`);
+  console.log (`Cidadania de ${nomeUsuario1}: ${cidadaniaUsuario1}`);
+  console.log (`Cidadania de ${nomeUsuario2}: ${cidadaniaUsuario2}`);
+
+  if(idadeUsuario1>idadeUsuario2){
+    console.log (`${nomeUsuario1} é mais velho/a que ${nomeUsuario2}`);
+  } else {
+    console.log (`${nomeUsuario1} é mais novo/a que ${nomeUsuario2}`);
+  }
+
+  if(cidadaniaUsuario1==cidadaniaUsuario2){
+    console.log (`${nomeUsuario1} e ${nomeUsuario2} são do mesmo país`);
+  } else {
+    console.log (`${nomeUsuario1} e ${nomeUsuario2} são de países diferentes`);
+  }
+
+  
+
+  </script>
+</body>
+</html>
